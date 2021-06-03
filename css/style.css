@@ -1,0 +1,75 @@
+body{
+    background-color: #F7F7F7;
+}
+
+p{
+    font-family: 'Nunito', sans-serif;
+}
+
+.box{
+    padding: 40px;
+    margin: 5px;
+}
+
+h3{
+    font-family: 'Rubik', sans-serif;
+}
+
+img{
+    height: auto;
+    width: 100%;
+}
+
+.img-fluid{
+    max-height: 60px;
+    max-width: 60px;
+}
+
+.row{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a{
+    font-size: large;
+}
+
+img.scale-with-grid, #Content img {
+    max-width: 80%;
+    height: auto;
+}
+
+#celano-foggia{
+    background-color:#fff;
+}
+
+#progetto{
+    background-color: #C8E6C9;
+}
+
+#storia{
+    background-color: #fff;
+}
+
+#tratturi{
+    background-color: #fff;
+}
+
+/*
+ * Footer
+ */
+.blog-footer {
+    padding: 2.5rem 0;
+    color: #FAFAFA;
+    text-align: center;
+    background-color: #43A047;
+    border-top: .05rem solid #43A047;
+}
+
+.blog-footer a{
+    color: #FAFAFA;
+}
+
+.blog-footer p:last-child {
+    margin-bottom: 0;
+}

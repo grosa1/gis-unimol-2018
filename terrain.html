@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tratturo Celano-Foggia</title>
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Rubik" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" style="background-color: #43A047!important">
+        <a class="navbar-brand mb-0 h1" href="/history.html">
+            <img style="max-width: 36px" src="res/unimol.png" alt="unimol" align="middle"> Tratturo Celano-Foggia
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" align="right" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-center" href="history.html">Storia
+                        
+                    </a>
+                </li>
+                <li class="nav-item  active">
+                    <a class="nav-link text-center" href="terrain.html">Analisi territoriale<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        Mappe
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="./maps/corine_map">Mappa Corine</a>
+                        <a class="dropdown-item" href="./maps/corine_with_area_map">Mappa Corine con ortofoto</a>
+                    </div>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Modelli
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="./models/tratt-3d">Area tratturo 3D</a>
+                            <a class="dropdown-item" href="./models/tratt_corine-3d">Area tratturo 3D + Corine</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="./models/world-3d">Territorio 3D</a>
+                            <a class="dropdown-item" href="./models/world_corine-3d">Territorio 3D + Corine</a>
+                        </div>
+                    </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <main role="main" class="container" style="margin-top: 6rem!important">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box text-center">
+                    <h3>PANORAMICA DEL TERRITORIO</h3>
+                    <p>
+                        L'area si trova a nord di Lucito e a sud di Castelbottaccio, si estende per circa 500 metri sia da sud che da nord del tratturo.
+                        Otteniamo così un buffer di 1km, avendo così una superficie di studio in totale di 1.1km (1100m,
+                        dove il tratturo è mediamente largo 110 metri). Non ci troviamo nell'alto Molise, ma si può notare
+                        comunque un territorio montuoso, con porzioni pianeggianti. Da questo quindi dipenderà anche la flora
+                        e la fauna presente, infatti troviamo boschi, porzioni di campi coltivati(soprattutto nella parte
+                        pianeggiante) e piccoli orticelli. Sono assenti gli alberi da frutto, però troviamo molti oliveti
+                        e vigneti. Le zone abitative sono rare e si limitano a casette di campagna o piccoli gruppetti rurali.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="res/territorio/panoramica.jpg">
+            </div>
+            <div class="col-md-6">
+                <img src="res/territorio/morfologia.jpg">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box text-center">
+                    <hr class="half-rule"/>
+                    <h3>CLASSIFICAZIONE CORINE</h3>
+                    <p>Per studio del territorio si intende l’analisi delle caratteristiche di copertura e uso del territorio e la suddivisione dello stesso in aree attenendosi al <a href="http://www.isprambiente.gov.it/it/temi/biodiversita/documenti/corine-land-cover-clc" target="blank">Corine Land Cover (CLC)</a>. La suddivisione in aree è avvenuta mappando un'ortofoto del Molise (1995) con poligoni, associando poi ad ognuno un codice relativo alla legenda Corine (fino al terzo livello).</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <img src="res/territorio/corine.jpeg">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <img src="res/territorio/legenda.jpg">
+            </div>
+        </div>
+        <div class="row">
+                <div class="col-md-6">
+                        <div class="box text-center">
+                                <h3>DATI RACCOLTI</h3>
+                                <p>Ricavando la superficie totale di ogni poligono della classificazione Corine (metri quadrati ed ettari), con grafici e tabelle Pivot è stata rappresentata, in termini percentuali, la copertura del territorio.</p>
+                            </div>
+                        </div>
+                <div class="col-md-6">
+                        <div class="box text-center">
+                        <img src="res/territorio/table.jpg">
+                    </div>
+                    </div>
+        </div>
+        <div class="row">
+                <div class="col-md-12">
+                        <div class="box text-center">
+                                <hr class="half-rule"/>
+                                <h3>COPERTURA DEL TERRITORIO</h3>
+                            </div>
+                        </div>
+                </div>
+        </div>
+        <div class="row">
+                <div class="col-md-12">
+                    <img src="res/territorio/graph.png">
+                </div>
+        </div>
+        <div class="row">
+                <div class="col-md-6">
+                        <div class="box text-center">
+                                <h3>CAMPI COLTIVATI</h3>
+                                <img src="res/territorio/211.jpeg">
+                            </div>
+                        </div>
+                <div class="col-md-6">
+                        <div class="box text-center">
+                                <h3>PRATERIE</h3>
+                                <img src="res/territorio/321.jpeg">
+                            </div>
+                        </div>
+                    </div>
+        </div>
+        <div class="row">
+                <div class="col-md-6">
+                        <div class="box text-center">
+                                <h3>AREE BOSCHIVE</h3>
+                                <img src="res/territorio/311_313.jpeg">
+                            </div>
+                        </div>
+                <div class="col-md-6">
+                        <div class="box text-center">
+                                <h3>OLIVETI E VIGNETI</h3>
+                                <img src="res/territorio/222.jpeg">
+                            </div>
+                        </div>
+                    </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+
+<footer class="blog-footer">
+    <p>A cura di: Prof. Paolo Di Martino, Giovanni Rosa, Matteo Omicini.</p>
+    <p>
+        <img style="max-width: 36px" src="res/unimol.png" alt="unimol" align="middle">
+        <a href="http://www.unimol.it" target="blank"> Università degli Studi del Molise</a>
+    </p>
+    <p>
+        <strong>
+            <a href="#">Torna su</a>
+        </strong>
+    </p>
+</footer>
+
+</html>
